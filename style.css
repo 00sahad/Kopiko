@@ -1,0 +1,166 @@
+
+
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+nav{
+    margin-left: 43rem;
+    padding-top: 27px;
+    padding-bottom: 30px;
+}
+
+.logo{
+    width: 12%;
+}
+
+nav a{
+    text-decoration: none;
+    padding-left: 3rem;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+nav a:hover{
+    color: red;
+    transition: 0.5s;
+}
+
+header div{
+    background-color: black;
+}
+
+header img{
+    position: absolute;
+    width: 12%;
+    left: 9%;
+    top: 2%;
+}
+.banner{
+    background: url(Header_1_adjusted.jpg);
+    background-size: 100%;
+    height:71vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.Kopico-about{
+    background-color: black;
+    width: 100%;
+    height: 28rem;
+
+    display: flex;
+    justify-content:center;
+}
+
+.Kopico-about div{
+    width: 40rem;
+    height: 28rem;
+    margin-top: 0rem;
+    margin-right: 3rem;
+}
+
+.Kopico-about img{
+    margin: 8rem;
+}
+
+.Kopico-about h1{
+    font-size: 2.3rem;
+    text-align: center;
+    color: white;
+    font-family: fantasy;
+    letter-spacing: 3px;
+    margin-top: 53px;
+    font-weight: 500;
+}
+
+.Kopico-about p{
+    padding-top: 36px;
+    text-align: left;
+    padding-left: 7rem;
+    line-height: 32px;
+    padding-right: 6rem;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+ 
+.NEW{
+     background: url(Pack1Table_adjusted.jpg);
+     background-size: 100%;
+     width: 100%;
+     height: 93vh;
+
+     display: flex;
+     justify-content: center;
+
+}
+
+.NEW div{
+    width: 48%;
+    height: 33rem;
+    margin-top: 4rem;
+}
+
+
+.NEW h1{
+    color: red;
+    font-weight: bold;
+    font-size: 4rem;
+    margin-top: 39px;
+    padding-left: 7rem;
+}
+
+.NEW p{
+    padding-top: 36px;
+    text-align: left;
+    padding-left: 7rem;
+    line-height: 32px;
+    padding-right: 6rem;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+
+.beans{
+    background: url(coffee\ bean\ background.jpg);
+    background-size: 100%;
+    height: 37rem;
+    background-repeat: no-repeat;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.beans div{
+    width: 47%;
+    height: 293px;
+}
+
+.beans h1{
+    color: white;
+    font-family: fantasy;
+    font-size: 3rem;
+    font-weight: thin;
+    font-weight: 100;
+    margin-top: 2rem;
+}
+
+.beans p{
+    font-size: 19px;
+    font-weight: thin;
+    margin-top: 2rem;
+    color: white;
+}
+
+.footer{
+    color: white;
+    background: #0b0b0b;
+    font-size: 12px;
+    padding: 25px;
+}
